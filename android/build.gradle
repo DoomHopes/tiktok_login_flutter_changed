@@ -49,6 +49,7 @@ android {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"//$kotlin_version"
-    implementation 'com.bytedance.ies.ugc.aweme:opensdk-oversea-external:0.2.1.0'
+    // implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"//$kotlin_version"
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.10"
+    classpath 'com.bytedance.ies.ugc.aweme:opensdk-oversea-external:0.2.1.0'
 }
